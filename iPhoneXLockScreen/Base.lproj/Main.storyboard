@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,101 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iPhoneXLockScreen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keypadwallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="vMI-xG-6pu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:09" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35s-v4-Q2e">
+                                <rect key="frame" x="108.00000000000001" y="99" width="158.33333333333337" height="95.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday, November 29" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnL-4M-VHP">
+                                <rect key="frame" x="62.666666666666657" y="190" width="250.99999999999997" height="26.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.0" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6g-ou-yXQ">
+                                <rect key="frame" x="279" y="712" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.26658818490000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="RYj-xu-gLp"/>
+                                    <constraint firstAttribute="width" constant="50" id="fpn-YY-ZHs"/>
+                                </constraints>
+                                <state key="normal" image="camera"/>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8o-he-AMB">
+                                <rect key="frame" x="46" y="712" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.26658818493150682" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Wvj-gj-Kzy"/>
+                                    <constraint firstAttribute="height" constant="50" id="b0i-KH-1TS"/>
+                                </constraints>
+                                <state key="normal" image="flashlight"/>
+                            </button>
+                            <visualEffectView opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5wy-TU-EeS">
+                                <rect key="frame" x="-1" y="0.0" width="375" height="812"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JaE-wp-u45">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="duD-7f-8H3">
+                                <rect key="frame" x="168" y="55" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="M3T-Hy-0xp"/>
+                                    <constraint firstAttribute="width" constant="40" id="Ypt-VW-9u2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vMI-xG-6pu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="08z-9P-jJW"/>
+                            <constraint firstAttribute="top" secondItem="nnL-4M-VHP" secondAttribute="bottom" constant="-216.33333333333334" id="ABq-S7-JxY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M6g-ou-yXQ" secondAttribute="bottom" constant="16" id="DM7-KK-hFr"/>
+                            <constraint firstItem="5wy-TU-EeS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EyP-Py-oFL"/>
+                            <constraint firstAttribute="bottom" secondItem="5wy-TU-EeS" secondAttribute="bottom" id="HTt-tC-jE5"/>
+                            <constraint firstItem="vMI-xG-6pu" firstAttribute="top" secondItem="duD-7f-8H3" secondAttribute="bottom" constant="-95" id="I1v-E3-o4I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S8o-he-AMB" secondAttribute="bottom" constant="16" id="Mlw-ch-Xt5"/>
+                            <constraint firstItem="duD-7f-8H3" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="O1p-Rf-b3P"/>
+                            <constraint firstItem="nnL-4M-VHP" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="TUM-d2-VlR"/>
+                            <constraint firstItem="5wy-TU-EeS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="V3r-jG-FbQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M6g-ou-yXQ" secondAttribute="trailing" constant="46" id="Ytp-FY-YKl"/>
+                            <constraint firstItem="35s-v4-Q2e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="gHK-M5-ByX"/>
+                            <constraint firstItem="vMI-xG-6pu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hX1-94-Yyr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vMI-xG-6pu" secondAttribute="trailing" id="jbx-z3-pTY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5wy-TU-EeS" secondAttribute="trailing" id="klL-qd-haP"/>
+                            <constraint firstItem="35s-v4-Q2e" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="lN4-SW-vtD"/>
+                            <constraint firstItem="S8o-he-AMB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="mSa-2T-pdG"/>
+                            <constraint firstAttribute="bottom" secondItem="vMI-xG-6pu" secondAttribute="bottom" id="tiP-9f-S51"/>
+                            <constraint firstItem="nnL-4M-VHP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="146" id="yrG-f1-cwf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cameraButton" destination="M6g-ou-yXQ" id="TY8-Pa-R5k"/>
+                        <outlet property="dateLabel" destination="nnL-4M-VHP" id="413-T2-w1S"/>
+                        <outlet property="flashlightButton" destination="S8o-he-AMB" id="fRh-CO-Ysp"/>
+                        <outlet property="timeLabel" destination="35s-v4-Q2e" id="sGv-t0-xU4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="35.467980295566505"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camera" width="29" height="29"/>
+        <image name="flashlight" width="27" height="27"/>
+        <image name="keypadwallpaper" width="1125" height="2436"/>
+        <image name="lock" width="41" height="40"/>
+    </resources>
 </document>
