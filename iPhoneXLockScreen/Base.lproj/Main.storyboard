@@ -23,13 +23,13 @@
                                 <gestureRecognizers/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:09" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35s-v4-Q2e">
-                                <rect key="frame" x="108.00000000000001" y="99" width="158.33333333333337" height="95.666666666666686"/>
+                                <rect key="frame" x="108" y="99" width="158" height="96"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="80"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday, November 29" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnL-4M-VHP">
-                                <rect key="frame" x="62.666666666666657" y="190" width="250.99999999999997" height="26.333333333333343"/>
+                                <rect key="frame" x="62" y="190" width="251" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -52,14 +52,210 @@
                                 </constraints>
                                 <state key="normal" image="flashlight"/>
                             </button>
-                            <visualEffectView opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5wy-TU-EeS">
-                                <rect key="frame" x="-1" y="0.0" width="375" height="812"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JaE-wp-u45">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                </view>
-                                <blurEffect style="dark"/>
-                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your passcode is required to enable Face ID" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x40-KO-4t1">
+                                <rect key="frame" x="94" y="174" width="187" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="187" id="3rJ-hf-hxp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Passcode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avi-dm-SRe">
+                                <rect key="frame" x="114" y="143" width="147" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O9v-6k-5OL" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="47" y="294" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="DfD-Po-sr6"/>
+                                    <constraint firstAttribute="height" constant="75" id="pTL-Ix-uwK"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F6w-1L-joH" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="294" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="amq-CX-ySA"/>
+                                    <constraint firstAttribute="height" constant="75" id="ev5-WY-aiQ"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iX1-5E-oi6" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="253" y="294" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="B3V-lo-7sx"/>
+                                    <constraint firstAttribute="width" constant="75" id="j0u-6Y-Dpx"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lga-1x-dKN" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="47" y="384" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="ROh-y1-KMG"/>
+                                    <constraint firstAttribute="height" constant="75" id="ufh-n5-ytK"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1A7-ru-1xC" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="384" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="4kA-jp-LWN"/>
+                                    <constraint firstAttribute="height" constant="75" id="8sy-YA-X3M"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v0t-Mc-6A8" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="253" y="384" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="Xg2-q7-HSa"/>
+                                    <constraint firstAttribute="height" constant="75" id="ibe-Rr-EC5"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gaP-Im-l2r" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="47" y="476" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="RxW-cv-yjl"/>
+                                    <constraint firstAttribute="width" constant="75" id="aAe-Eq-Oxo"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLQ-a9-UNv" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="476" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="6ZH-cV-eT2"/>
+                                    <constraint firstAttribute="height" constant="75" id="wa0-0G-bZ3"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QfC-OD-NMV" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="253" y="476" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="1as-RX-WtS"/>
+                                    <constraint firstAttribute="height" constant="75" id="J2F-LP-yhY"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="duD-7f-8H3">
                                 <rect key="frame" x="168" y="55" width="40" height="40"/>
                                 <constraints>
@@ -67,27 +263,152 @@
                                     <constraint firstAttribute="width" constant="40" id="Ypt-VW-9u2"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gtv-Ba-0vs">
+                                <rect key="frame" x="67" y="222" width="240" height="29"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circleopen" translatesAutoresizingMaskIntoConstraints="NO" id="tZe-2t-4u9">
+                                        <rect key="frame" x="20" y="7" width="16" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="Cb0-Bm-NPC"/>
+                                            <constraint firstAttribute="width" constant="16" id="vjD-jU-Aul"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circleopen" translatesAutoresizingMaskIntoConstraints="NO" id="LLd-mv-PGd">
+                                        <rect key="frame" x="57" y="6" width="16" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="16" id="Iio-zM-WuW"/>
+                                            <constraint firstAttribute="height" constant="16" id="Qx6-Im-2q4"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circleopen" translatesAutoresizingMaskIntoConstraints="NO" id="XyT-RI-5Ac">
+                                        <rect key="frame" x="94" y="6" width="16" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="KRN-DN-q0g"/>
+                                            <constraint firstAttribute="width" constant="16" id="Zhd-cK-D8J"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circleopen" translatesAutoresizingMaskIntoConstraints="NO" id="4Cx-CV-xIp">
+                                        <rect key="frame" x="131" y="6" width="16" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="LKN-Jx-gEs"/>
+                                            <constraint firstAttribute="width" constant="16" id="aq9-Zl-4wD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circleopen" translatesAutoresizingMaskIntoConstraints="NO" id="pSz-iF-zbu">
+                                        <rect key="frame" x="168" y="7" width="16" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="T55-0c-oVH"/>
+                                            <constraint firstAttribute="width" constant="16" id="XTb-hF-O38"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circleopen" translatesAutoresizingMaskIntoConstraints="NO" id="kCQ-jr-v9Q">
+                                        <rect key="frame" x="205" y="7" width="16" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="tej-4f-wzA"/>
+                                            <constraint firstAttribute="width" constant="16" id="vbC-Qv-Nkq"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="1UW-0S-LXX"/>
+                                    <constraint firstItem="4Cx-CV-xIp" firstAttribute="centerY" secondItem="gtv-Ba-0vs" secondAttribute="centerY" id="9df-Ew-sVH"/>
+                                    <constraint firstItem="pSz-iF-zbu" firstAttribute="leading" secondItem="4Cx-CV-xIp" secondAttribute="trailing" constant="21" id="CZE-bl-EiL"/>
+                                    <constraint firstItem="XyT-RI-5Ac" firstAttribute="centerY" secondItem="gtv-Ba-0vs" secondAttribute="centerY" id="Fa7-rY-AU5"/>
+                                    <constraint firstItem="LLd-mv-PGd" firstAttribute="centerY" secondItem="gtv-Ba-0vs" secondAttribute="centerY" id="LZ5-j5-AI1"/>
+                                    <constraint firstItem="XyT-RI-5Ac" firstAttribute="leading" secondItem="LLd-mv-PGd" secondAttribute="trailing" constant="21" id="VUx-Xo-D9w"/>
+                                    <constraint firstItem="4Cx-CV-xIp" firstAttribute="leading" secondItem="XyT-RI-5Ac" secondAttribute="trailing" constant="21" id="Yjv-8G-We5"/>
+                                    <constraint firstItem="pSz-iF-zbu" firstAttribute="centerY" secondItem="gtv-Ba-0vs" secondAttribute="centerY" id="ay9-JS-6wY"/>
+                                    <constraint firstAttribute="height" constant="29" id="eGm-gk-EXG"/>
+                                    <constraint firstItem="kCQ-jr-v9Q" firstAttribute="centerY" secondItem="gtv-Ba-0vs" secondAttribute="centerY" id="fnP-jk-eBA"/>
+                                    <constraint firstItem="LLd-mv-PGd" firstAttribute="leading" secondItem="tZe-2t-4u9" secondAttribute="trailing" constant="21" id="kLB-92-h4P"/>
+                                    <constraint firstItem="tZe-2t-4u9" firstAttribute="centerY" secondItem="gtv-Ba-0vs" secondAttribute="centerY" id="mke-IL-E6O"/>
+                                    <constraint firstItem="kCQ-jr-v9Q" firstAttribute="leading" secondItem="pSz-iF-zbu" secondAttribute="trailing" constant="21" id="vEZ-n9-e58"/>
+                                    <constraint firstItem="tZe-2t-4u9" firstAttribute="leading" secondItem="gtv-Ba-0vs" secondAttribute="leading" constant="20" id="y43-Qj-Vj8"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2m-12-Gcg">
+                                <rect key="frame" x="44" y="734" width="82" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Emergency">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WId-v3-K01">
+                                <rect key="frame" x="266" y="734" width="50" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1bv-xe-Zvt" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="567" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="HlH-Cx-RGC"/>
+                                    <constraint firstAttribute="height" constant="75" id="VAf-Zy-jVb"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="O9v-6k-5OL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="01U-v1-6Cr"/>
                             <constraint firstItem="vMI-xG-6pu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="08z-9P-jJW"/>
+                            <constraint firstItem="QfC-OD-NMV" firstAttribute="top" secondItem="MLQ-a9-UNv" secondAttribute="top" id="0Vh-dz-FT9"/>
+                            <constraint firstItem="F6w-1L-joH" firstAttribute="top" secondItem="O9v-6k-5OL" secondAttribute="top" id="1W0-V7-lcC"/>
+                            <constraint firstItem="K2m-12-Gcg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="4Dj-dj-cQI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="K2m-12-Gcg" secondAttribute="bottom" constant="12" id="6hx-BJ-6zW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iX1-5E-oi6" secondAttribute="trailing" constant="47" id="830-5y-8b8"/>
+                            <constraint firstItem="avi-dm-SRe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8Qp-aM-HCu"/>
+                            <constraint firstItem="v0t-Mc-6A8" firstAttribute="top" secondItem="iX1-5E-oi6" secondAttribute="bottom" constant="15" id="9oY-yO-YiJ"/>
                             <constraint firstAttribute="top" secondItem="nnL-4M-VHP" secondAttribute="bottom" constant="-216.33333333333334" id="ABq-S7-JxY"/>
+                            <constraint firstItem="iX1-5E-oi6" firstAttribute="top" secondItem="F6w-1L-joH" secondAttribute="top" id="B6Q-2n-3yG"/>
+                            <constraint firstItem="gtv-Ba-0vs" firstAttribute="top" secondItem="nnL-4M-VHP" secondAttribute="bottom" constant="5.6699999999999999" id="D1d-hW-RsT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M6g-ou-yXQ" secondAttribute="bottom" constant="16" id="DM7-KK-hFr"/>
-                            <constraint firstItem="5wy-TU-EeS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EyP-Py-oFL"/>
-                            <constraint firstAttribute="bottom" secondItem="5wy-TU-EeS" secondAttribute="bottom" id="HTt-tC-jE5"/>
+                            <constraint firstItem="MLQ-a9-UNv" firstAttribute="top" secondItem="gaP-Im-l2r" secondAttribute="top" id="Enf-dd-UPu"/>
+                            <constraint firstItem="1A7-ru-1xC" firstAttribute="top" secondItem="F6w-1L-joH" secondAttribute="bottom" constant="15" id="Eos-R8-3zJ"/>
+                            <constraint firstItem="Lga-1x-dKN" firstAttribute="top" secondItem="O9v-6k-5OL" secondAttribute="bottom" constant="15" id="GHd-MP-Lti"/>
                             <constraint firstItem="vMI-xG-6pu" firstAttribute="top" secondItem="duD-7f-8H3" secondAttribute="bottom" constant="-95" id="I1v-E3-o4I"/>
+                            <constraint firstItem="1A7-ru-1xC" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="LS5-Om-cOa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S8o-he-AMB" secondAttribute="bottom" constant="16" id="Mlw-ch-Xt5"/>
                             <constraint firstItem="duD-7f-8H3" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="O1p-Rf-b3P"/>
+                            <constraint firstItem="gaP-Im-l2r" firstAttribute="top" secondItem="Lga-1x-dKN" secondAttribute="bottom" constant="17" id="PH1-Kr-OJN"/>
                             <constraint firstItem="nnL-4M-VHP" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="TUM-d2-VlR"/>
-                            <constraint firstItem="5wy-TU-EeS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="V3r-jG-FbQ"/>
+                            <constraint firstItem="1bv-xe-Zvt" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="U6X-4Z-xEE"/>
+                            <constraint firstItem="x40-KO-4t1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="V5h-3p-xgy"/>
+                            <constraint firstItem="x40-KO-4t1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Xtd-hl-Ly4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M6g-ou-yXQ" secondAttribute="trailing" constant="46" id="Ytp-FY-YKl"/>
+                            <constraint firstItem="gaP-Im-l2r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="dzK-gI-EbD"/>
                             <constraint firstItem="35s-v4-Q2e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="gHK-M5-ByX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QfC-OD-NMV" secondAttribute="trailing" constant="47" id="hOh-KB-cf1"/>
                             <constraint firstItem="vMI-xG-6pu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hX1-94-Yyr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WId-v3-K01" secondAttribute="trailing" constant="59" id="hvX-Tb-s0Q"/>
+                            <constraint firstItem="1bv-xe-Zvt" firstAttribute="top" secondItem="MLQ-a9-UNv" secondAttribute="bottom" constant="16" id="hxN-Y8-1zA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vMI-xG-6pu" secondAttribute="trailing" id="jbx-z3-pTY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5wy-TU-EeS" secondAttribute="trailing" id="klL-qd-haP"/>
+                            <constraint firstItem="Lga-1x-dKN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="kiN-HS-pA2"/>
                             <constraint firstItem="35s-v4-Q2e" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="lN4-SW-vtD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v0t-Mc-6A8" secondAttribute="trailing" constant="47" id="lcO-o9-PYK"/>
                             <constraint firstItem="S8o-he-AMB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="mSa-2T-pdG"/>
+                            <constraint firstItem="gtv-Ba-0vs" firstAttribute="centerX" secondItem="x40-KO-4t1" secondAttribute="centerX" id="p0f-Ln-B3g"/>
+                            <constraint firstItem="avi-dm-SRe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="99" id="qaL-ha-p1u"/>
+                            <constraint firstItem="F6w-1L-joH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="saB-kV-ldD"/>
                             <constraint firstAttribute="bottom" secondItem="vMI-xG-6pu" secondAttribute="bottom" id="tiP-9f-S51"/>
+                            <constraint firstItem="O9v-6k-5OL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="250" id="uUk-IL-K0k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WId-v3-K01" secondAttribute="bottom" constant="12" id="ujb-I7-J0A"/>
+                            <constraint firstItem="MLQ-a9-UNv" firstAttribute="centerX" secondItem="vMI-xG-6pu" secondAttribute="centerX" id="x1D-TT-eT0"/>
                             <constraint firstItem="nnL-4M-VHP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="146" id="yrG-f1-cwf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -106,6 +427,7 @@
     </scenes>
     <resources>
         <image name="camera" width="29" height="29"/>
+        <image name="circleopen" width="14" height="14"/>
         <image name="flashlight" width="27" height="27"/>
         <image name="keypadwallpaper" width="1125" height="2436"/>
         <image name="lock" width="41" height="40"/>

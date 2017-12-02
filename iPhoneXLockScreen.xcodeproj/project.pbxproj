@@ -12,6 +12,7 @@
 		190618D51FCFC9C000F6D568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190618D31FCFC9C000F6D568 /* Main.storyboard */; };
 		190618D71FCFC9C000F6D568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190618D61FCFC9C000F6D568 /* Assets.xcassets */; };
 		190618DA1FCFC9C000F6D568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190618D81FCFC9C000F6D568 /* LaunchScreen.storyboard */; };
+		19E96ABF1FD261B200E4FECC /* KeypadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E96ABE1FD261B200E4FECC /* KeypadButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		190618D61FCFC9C000F6D568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190618D91FCFC9C000F6D568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190618DB1FCFC9C000F6D568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E96ABE1FD261B200E4FECC /* KeypadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				190618CF1FCFC9C000F6D568 /* AppDelegate.swift */,
 				190618D11FCFC9C000F6D568 /* ViewController.swift */,
+				19E96ABE1FD261B200E4FECC /* KeypadButton.swift */,
 				190618D31FCFC9C000F6D568 /* Main.storyboard */,
 				190618D61FCFC9C000F6D568 /* Assets.xcassets */,
 				190618D81FCFC9C000F6D568 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				190618D21FCFC9C000F6D568 /* ViewController.swift in Sources */,
+				19E96ABF1FD261B200E4FECC /* KeypadButton.swift in Sources */,
 				190618D01FCFC9C000F6D568 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
