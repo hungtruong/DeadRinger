@@ -2,6 +2,8 @@
 
 DeadRinger is a proof of concept to show how it's possible to re-create the iPhone X lock screen and steal a user's password by making them think they're entering it into their phone. It's not a cheap or particularly easy exploit because you'd have to sacrifice your own phone and physically swap phones with the target but hey, some people have the resources.
 
+![Dead Ringer in action](https://github.com/hungtruong/DeadRinger/blob/master/demo.gif?raw=true)
+
 ### Background
 
 With the introduction of the iPhone X, a few new features have made it feasible to faithfully re-create the lock screen.
