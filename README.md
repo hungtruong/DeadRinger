@@ -4,6 +4,11 @@ DeadRinger is a proof of concept to show how it's possible to re-create the iPho
 
 ![Dead Ringer in action](https://github.com/hungtruong/DeadRinger/blob/master/demo.gif?raw=true)
 
+### Video Demo
+
+[![DeadRinger Demo Video](https://github.com/hungtruong/DeadRinger/blob/master/videodemo.gif?raw=true)](https://youtu.be/0fR6mmrMFyQ "DeadRinger Demo Video")
+
+
 ### Background
 
 With the introduction of the iPhone X, a few new features have made it feasible to faithfully re-create the lock screen.
