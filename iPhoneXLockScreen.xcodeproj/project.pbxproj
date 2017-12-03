@@ -31,6 +31,7 @@
 		19B16D351FD3C1E000A50B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		19B16D361FD3C94900A50B77 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		19B16D381FD3CC7A00A50B77 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		19B16D3A1FD4723900A50B77 /* videodemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = videodemo.gif; sourceTree = "<group>"; };
 		19E96ABE1FD261B200E4FECC /* KeypadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +52,7 @@
 				19B16D351FD3C1E000A50B77 /* README.md */,
 				19B16D361FD3C94900A50B77 /* LICENSE.md */,
 				19B16D381FD3CC7A00A50B77 /* demo.gif */,
+				19B16D3A1FD4723900A50B77 /* videodemo.gif */,
 				190618CE1FCFC9C000F6D568 /* iPhoneXLockScreen */,
 				190618CD1FCFC9C000F6D568 /* Products */,
 			);
