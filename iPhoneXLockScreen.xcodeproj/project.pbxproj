@@ -12,6 +12,9 @@
 		190618D51FCFC9C000F6D568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190618D31FCFC9C000F6D568 /* Main.storyboard */; };
 		190618D71FCFC9C000F6D568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190618D61FCFC9C000F6D568 /* Assets.xcassets */; };
 		190618DA1FCFC9C000F6D568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190618D81FCFC9C000F6D568 /* LaunchScreen.storyboard */; };
+		19B16D241FD3984200A50B77 /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B16D231FD3984200A50B77 /* KeypadView.swift */; };
+		19B16D281FD398C000A50B77 /* PasscodeDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B16D271FD398C000A50B77 /* PasscodeDotsView.swift */; };
+		19B16D371FD3C94900A50B77 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 19B16D361FD3C94900A50B77 /* LICENSE.md */; };
 		19E96ABF1FD261B200E4FECC /* KeypadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E96ABE1FD261B200E4FECC /* KeypadButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,11 @@
 		190618D61FCFC9C000F6D568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190618D91FCFC9C000F6D568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190618DB1FCFC9C000F6D568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B16D231FD3984200A50B77 /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		19B16D271FD398C000A50B77 /* PasscodeDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeDotsView.swift; sourceTree = "<group>"; };
+		19B16D351FD3C1E000A50B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19B16D361FD3C94900A50B77 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		19B16D381FD3CC7A00A50B77 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		19E96ABE1FD261B200E4FECC /* KeypadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +48,9 @@
 		190618C31FCFC9C000F6D568 = {
 			isa = PBXGroup;
 			children = (
+				19B16D351FD3C1E000A50B77 /* README.md */,
+				19B16D361FD3C94900A50B77 /* LICENSE.md */,
+				19B16D381FD3CC7A00A50B77 /* demo.gif */,
 				190618CE1FCFC9C000F6D568 /* iPhoneXLockScreen */,
 				190618CD1FCFC9C000F6D568 /* Products */,
 			);
@@ -59,6 +70,8 @@
 				190618CF1FCFC9C000F6D568 /* AppDelegate.swift */,
 				190618D11FCFC9C000F6D568 /* ViewController.swift */,
 				19E96ABE1FD261B200E4FECC /* KeypadButton.swift */,
+				19B16D231FD3984200A50B77 /* KeypadView.swift */,
+				19B16D271FD398C000A50B77 /* PasscodeDotsView.swift */,
 				190618D31FCFC9C000F6D568 /* Main.storyboard */,
 				190618D61FCFC9C000F6D568 /* Assets.xcassets */,
 				190618D81FCFC9C000F6D568 /* LaunchScreen.storyboard */,
@@ -126,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B16D371FD3C94900A50B77 /* LICENSE.md in Resources */,
 				190618DA1FCFC9C000F6D568 /* LaunchScreen.storyboard in Resources */,
 				190618D71FCFC9C000F6D568 /* Assets.xcassets in Resources */,
 				190618D51FCFC9C000F6D568 /* Main.storyboard in Resources */,
@@ -139,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B16D241FD3984200A50B77 /* KeypadView.swift in Sources */,
 				190618D21FCFC9C000F6D568 /* ViewController.swift in Sources */,
+				19B16D281FD398C000A50B77 /* PasscodeDotsView.swift in Sources */,
 				19E96ABF1FD261B200E4FECC /* KeypadButton.swift in Sources */,
 				190618D01FCFC9C000F6D568 /* AppDelegate.swift in Sources */,
 			);
